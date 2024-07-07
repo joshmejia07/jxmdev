@@ -29,6 +29,10 @@
   @media (max-width: 654px) {
     --fs-xxl: 4rem;
   }
+
+  @media (max-width: 480px) {
+    --fs-xxl: 3rem;
+  }
 }
 
 body {
