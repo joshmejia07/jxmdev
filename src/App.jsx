@@ -90,8 +90,9 @@ function App() {
           <Card
             image={theYoke}
             altText="The Yoke Website"
-            divClass=""
+            divClass="banner-pos"
             imgClass="card grid-item"
+            banner={<h4 className="banner">COMING SOON</h4>}
           />
           <Design />
           <Contact targetRef={targetRef} />

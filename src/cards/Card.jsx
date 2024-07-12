@@ -1,6 +1,13 @@
 import React, { useState } from "react"
 
-export default function Card({ image, altText, divClass, imgClass, website }) {
+export default function Card({
+  image,
+  altText,
+  divClass,
+  imgClass,
+  website,
+  banner,
+}) {
   const [isHovered, setIsHovered] = useState(false)
 
   const handleMouseEnter = () => {
@@ -18,11 +25,8 @@ export default function Card({ image, altText, divClass, imgClass, website }) {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <img
-          className={`${imgClass} ${isHovered ? "hovered" : ""}`}
-          src={image}
-          alt={altText}
-        />
+        <img className={imgClass} src={image} alt={altText} />
+        {isHovered ? banner : ""}
       </div>
     </a>
   )
