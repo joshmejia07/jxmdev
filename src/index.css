@@ -300,6 +300,23 @@ h3 {
   color: var(--text-clr-main);
 }
 
+/* SERVICE CARD */
+
+.service-card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card p {
+  margin: 0;
+}
+
+.service-icon {
+  width: 3.5rem;
+  display: block;
+}
+
 /* CARD */
 
 .projects-container {
@@ -308,6 +325,18 @@ h3 {
 
 .ots-logo {
   width: 13.125rem;
+}
+
+.import-firestore-logo {
+  width: 2rem;
+}
+
+.card-hov {
+  transition: transform 0.3s ease-in-out; /* Transition for the transform property */
+}
+
+.card-hov.hovered {
+  transform: scale(1.015); /* Scale up slightly on hover */
 }
 
 /* CONTACT */

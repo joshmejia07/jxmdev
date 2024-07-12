@@ -4,7 +4,7 @@ import { techIcons } from "../data"
 export default function ProjectHeader() {
   const [headingStyle, setHeadingStyle] = useState({})
 
-  const [heading, setHeading] = useState("Projects")
+  const [heading, setHeading] = useState("Services")
 
   const handleMouseEnter = (name, style) => {
     setHeading(name)
@@ -25,7 +25,7 @@ export default function ProjectHeader() {
               className="icon pointer"
               onMouseEnter={() => handleMouseEnter(icon.name, icon.color)}
               onMouseLeave={() => {
-                setHeading("Projects")
+                setHeading("Services")
                 setHeadingStyle({})
               }}
             />
