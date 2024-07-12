@@ -13,7 +13,7 @@ export default function Profile() {
         </div>
         <div className="profile-icons pointer">
           <a
-            href="https://www.linkedin.com/in/josh-mejia-a32155110/"
+            href="https://www.linkedin.com/in/jxmdev/"
             target="_black"
             rel="noopener noreferrer"
           >
