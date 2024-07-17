@@ -42,25 +42,25 @@ function App() {
           <ServiceCard
             icon={webDevIcon}
             title="Web Development"
-            description="Frontend Development, Responsive Web Design, E-commerce Development, CMS Development (WordPress, Joomla, etc.), Social Media Integration"
+            description="Frontend Development, Responsive Web Design, E-commerce Development, CMS Development (WordPress, Joomla, etc.), Social Media Integration."
             color="#f2bf5c"
           />
           <ServiceCard
             icon={uxIcon}
             title="UX/UI Design"
-            description="User Interface Design, User Experience  Design, Wireframing and Prototyping, Usability Testing"
+            description="User Interface Design, User Experience  Design, Wireframing and Prototyping, Usability Testing."
             color="#5cb3f2"
           />
           <ServiceCard
             icon={maintenanceIcon}
             title="Maintenance & Support"
-            description="Website Maintenance, Software Updates and Upgrades, Bug Fixes and Troubleshooting, Performance Monitoring"
+            description="Website Maintenance, Software Updates and Upgrades, Bug Fixes and Troubleshooting, Performance Monitoring."
             color="#f25c65"
           />
           <ServiceCard
             icon={marketingIcon}
             title="Digital Marketing Services"
-            description="Comprehensive SEO Services, Complete Website Audits, Website Analytics and Reporting, Conversion Rate Optimization (CRO), Google Analytics, Google Search Console Set Up"
+            description="Comprehensive SEO Services, Complete Website Audits, Website Analytics and Reporting, Conversion Rate Optimization (CRO), Google Analytics, Google Search Console Set Up."
             color="#955cf2"
           />
           <TitleCard />
@@ -78,7 +78,7 @@ function App() {
             altText="Momntm Logo"
             divClass="card flex-center grid-item aspect-ratio-box"
             imgClass="import-firestore-logo"
-            website={"https://importfirestore.netlify.app/"}
+            website={"https://importfirestoreov.netlify.app/"}
           />
           <Card
             image={momntmSite}
@@ -92,7 +92,8 @@ function App() {
             altText="The Yoke Website"
             divClass="banner-pos"
             imgClass="card grid-item"
-            banner={<h4 className="banner">COMING SOON</h4>}
+            website={"https://theyoke.netlify.app/"}
+            // banner={<h4 className="banner">COMING SOON</h4>}
           />
           <Design />
           <Contact targetRef={targetRef} />

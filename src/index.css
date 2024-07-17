@@ -339,7 +339,7 @@ h3 {
   transform: scale(1.015); /* Scale up slightly on hover */
 }
 
-.banner {
+/* .banner {
   position: fixed;
   top: 42%;
   left: 52%;
@@ -353,8 +353,7 @@ h3 {
 
 .banner-pos {
   position: relative;
-  /* width: 100%; */
-}
+} */
 
 /* CONTACT */
 
