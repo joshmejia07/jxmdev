@@ -397,6 +397,11 @@ textarea {
   outline: 2px solid var(--accent-clr-two);
 }
 
+.confirmation-message {
+  color: var(--accent-clr-two);
+  font-weight: 600;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1300px) {

@@ -8,6 +8,8 @@ export default function Contact({ targetRef }) {
     message: "",
   })
 
+  const [messageSent, setMessageSent] = useState(false)
+
   const form = useRef()
 
   const sendEmail = e => {
@@ -24,8 +26,12 @@ export default function Contact({ targetRef }) {
       )
       .then(
         () => {
-          console.log("SUCCESS!")
-          alert("Email Sent")
+          setMessageSent(true)
+
+          setTimeout(() => {
+            setMessageSent(false)
+          }, 2500)
+
           setFormData({
             name: "",
             email: "",
@@ -83,9 +89,15 @@ export default function Contact({ targetRef }) {
             required
             className="form-inputs grid-col-span"
           />
-          <button type="submit" className="btn-styled pointer">
-            Send
-          </button>
+          {messageSent ? (
+            <p className="confirmation-message">
+              Thank you! We'll be in touch soon.
+            </p>
+          ) : (
+            <button type="submit" className="btn-styled pointer">
+              Send
+            </button>
+          )}
         </form>
       </div>
     </div>
