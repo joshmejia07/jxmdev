@@ -77,6 +77,10 @@ body {
   margin: auto;
 }
 
+.m-zero {
+  margin: 0;
+}
+
 .icon-bg {
   display: flex;
   justify-content: center;

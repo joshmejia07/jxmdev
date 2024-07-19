@@ -10,7 +10,7 @@ export default function AboutMe() {
         <img src={rings} alt="small colored rings" width="81" height="20" />
       </div>
       <div className="about-me card">
-        <p className="fs--l margin-zero">
+        <p className="fs--l m-zero">
           <strong>About Me</strong>
         </p>
         <hr className="hr-small" />
