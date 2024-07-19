@@ -12,7 +12,7 @@ export default function ProjectHeader() {
   }
 
   return (
-    <div className="projects-head-container grid-col-span card">
+    <div className="projects-head-container grid-col-span m-top-bottom">
       <h1 className="projects-head-text" style={headingStyle}>
         {heading}
       </h1>

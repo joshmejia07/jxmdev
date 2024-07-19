@@ -56,9 +56,9 @@ export default function Contact({ targetRef }) {
     <div className="card grid-col-span" ref={targetRef}>
       <div className="grid-container">
         <div className="cta-container">
-          <h1 className="cta-text">
+          <h2 className="cta-text">
             Let's <br /> work <span>together.</span>
-          </h1>
+          </h2>
           <p>Get in touch</p>
         </div>
         <form onSubmit={sendEmail} ref={form}>

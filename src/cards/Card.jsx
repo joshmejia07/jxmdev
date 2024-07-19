@@ -25,19 +25,15 @@ export default function Card({
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <img className={imgClass} src={image} alt={altText} />
+        <img
+          className={imgClass}
+          src={image}
+          alt={altText}
+          // width="464"
+          // height="268"
+        />
         {isHovered ? banner : ""}
       </div>
     </a>
   )
 }
-
-// export default function Card({ image, altText, divClass, imgClass, website }) {
-//   return (
-//     <a href={website} target="_blank" rel="noopener noreference">
-//       <div className={divClass}>
-//         <img className={imgClass} src={image} alt={altText} />
-//       </div>
-//     </a>
-//   )
-// }

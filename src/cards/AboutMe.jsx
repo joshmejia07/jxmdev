@@ -7,10 +7,12 @@ export default function AboutMe() {
         <p>
           <strong>Full Time. </strong>Part Time. <strong>Freelance.</strong>
         </p>
-        <img src={rings} alt="small colored rings" />
+        <img src={rings} alt="small colored rings" width="81" height="20" />
       </div>
       <div className="about-me card">
-        <h2>About Me</h2>
+        <p className="fs--l margin-zero">
+          <strong>About Me</strong>
+        </p>
         <hr className="hr-small" />
         <p>
           Enthusiastic and detail-oriented Developer with a solid foundation in

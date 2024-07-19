@@ -84,14 +84,14 @@ function App() {
             image={momntmSite}
             altText="Momntm Website"
             divClass=""
-            imgClass="card grid-item"
+            imgClass="card grid-item project-card"
             website={"https://joshmejia07.github.io/momntm/"}
           />
           <Card
             image={theYoke}
             altText="The Yoke Website"
             divClass="banner-pos"
-            imgClass="card grid-item"
+            imgClass="card grid-item project-card"
             website={"https://theyoke.netlify.app/"}
             // banner={<h4 className="banner">COMING SOON</h4>}
           />

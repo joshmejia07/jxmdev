@@ -4,11 +4,19 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa"
 export default function Profile() {
   return (
     <div className="profile-card card">
-      <img className="profile-pic" src={profilePic} alt="profile picture" />
+      <img
+        className="profile-pic"
+        src={profilePic}
+        alt="profile picture"
+        width="960"
+        height="859"
+      />
       <div className="profile-flex">
         <div className="profile-info">
           <p className="fs--xl">JOSH</p>
-          <h3 className="fs--xl">MEJIA</h3>
+          <p className="fs--xl">
+            <strong>MEJIA</strong>
+          </p>
           <p className="txt--clr-med location">Las Vegas, NV</p>
         </div>
         <div className="profile-icons pointer">

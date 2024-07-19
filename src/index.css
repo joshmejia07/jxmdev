@@ -18,12 +18,12 @@
   @media (max-width: 1120px) {
     --fs-xxl: 6rem;
     --fs-xl: 2rem;
-    --fs-l: 1rem;
+    /* --fs-l: 1rem; */
   }
 
   @media (max-width: 768px) {
     --fs-xxl: 5rem;
-    --fs-xl: 1.5rem;
+    /* --fs-xl: 1.5rem; */
   }
 
   @media (max-width: 654px) {
@@ -68,6 +68,11 @@ body {
   cursor: pointer;
 }
 
+.m-top-bottom {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -95,7 +100,7 @@ a {
 .card {
   background-color: var(--main-bg-color);
   border-radius: 10px;
-  box-shadow: 4px 4px 4px #b9b9b9;
+  box-shadow: 2.5px 2.5px 4px #afafaf;
 }
 
 .card-container {
@@ -314,6 +319,7 @@ h3 {
 
 .service-icon {
   width: 3.5rem;
+  height: 3.1rem;
   display: block;
 }
 
@@ -338,6 +344,11 @@ h3 {
 .card-hov.hovered {
   transform: scale(1.015); /* Scale up slightly on hover */
 }
+
+/* .project-card {
+  max-width: 29rem;
+  max-height: 16.75rem;
+} */
 
 /* .banner {
   position: fixed;
@@ -477,6 +488,10 @@ textarea {
   .about-me-container {
     grid-template-rows: 20% 75%;
     gap: 0.7rem;
+  }
+
+  .icons {
+    width: 85%;
   }
 
   form {
